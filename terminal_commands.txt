@@ -1,0 +1,125 @@
+1  pwd
+    2  mkdir Demogitbash
+    3  ls
+    4  cd Demogitbash/
+    5  pwd
+    6  history
+    7  touch demo.txt
+    8  ls
+    9  touch demo1.txt demo2.txt
+   10  ls
+   11*
+   12  nano demo.txt
+   13  cat demo.txt
+   14  rm demo2.txt
+   15  ls
+   16  mkdir demo2
+   17  ls
+   18  rm -r demo2/
+   19  ls
+   20  history
+   21  ls
+   22  mkdir Demo
+   23  cd Demo
+   24  cd ..
+   25  ls
+   26  mv demo1.txt Demo/demo2.txt
+   27  cd Demo
+  22  ls
+   23  find data.txt
+   24  find *.txt
+   25  find -size 5M
+   26  cd ..
+   27  find -size 5M
+   28  find -size +5M
+   29  pwd
+   30  cd Demogitbash/
+   31  ls
+   32  echo hello abhishek
+   33  echo hello
+   34  awk '{print }' demo.txt
+   35  awk '{print $1}' demo.txt
+   36  awk '{print $2}' demo.txt
+   37  echo demo.txt | awk '{print $1}'
+   38  echo hello gitbash | awk '{print $1}'
+   39  echo hello gitbash | awk '{print $2}'
+   40  echo hello gitbash | awk '{print $0}'
+   41  history
+   42  echo hello
+   43  echo hello gitbash
+   44  echo hello abhishek
+   45  echo hello abhishek | awk '{print $2}'
+   46  echo hello abhi| awk '{print $1}'
+   48  history
+   49  ls
+   50  nano data.csv
+   51  pwd
+   52  ls
+   53  cat data.csv
+   54  cat data.csv | grep allen
+   55  cat data.csv | grep allen |awk '{print $2}'
+   56  cat data.csv | grep allen |awk '{print $1}'
+   57  cat data.csv | grep allen |awk '{print $3}'
+   58  cat data.csv | grep allen |awk '{print $2 " " $3}'
+   59  cat data.csv | grep allen |awk '{print $1 " " $3}'
+   60  cat data.csv
+   61  head data.csv
+   62  tail data.csv
+   63  head -3 data.csv
+   64  tail -2 data.csv
+ 2  mkdir DemoGit1
+    3  cd DemoGit1/
+    4  clear
+    5  pwd
+    6  touch Hello.java Demo.java
+    7  ls
+    8  git init
+    9  git remote add origin https://github.com/abhik2299/demogithub.git
+   10  git init
+   11  git remote -v
+   12  nano Demo.java
+   13  ls
+   14  git status
+   15  git add .
+   16  git status
+   17  git commit -m "Added: java files"
+   18  git push origin master
+   19  history
+   20  git checkout -b Demobranch
+   21  git branch
+   22  ls
+   23  touch Student.java
+   24  nano Student.java
+   25  git add Student.java
+   26  git commit -m "Added: student java file"
+   27  git push origin Demobranch
+   28  history
+   29  ls
+   30  git checkout master
+   31  git checkout Demobranch branch
+   32  git checkout Demobranch
+   33  git checkout master
+   34  ls
+   35  git merge Demobranch
+   36  git push origin master
+   38  history
+   39  git checkout -b Demobranch2
+   40  git branch
+   41  git checkout master
+   44  git checkout Demobrnach2
+   45  git branch
+   46  git checkout Demobranch2
+   50  git branch
+   51  git checkout master
+   52  git branch
+   54  git branch --delete Demobranch2
+   57  git branch
+   59  git branch
+   60  git branch -m Demo
+   62  git branch
+   63  master
+   64  git checkout master
+   66  git branch
+   67  git checkout Demo
+   68  git push origin Demo
+   71  git push origin --delete Demobranch
